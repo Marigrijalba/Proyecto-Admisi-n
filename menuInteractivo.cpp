@@ -8,7 +8,7 @@ void menuInteractivo(Student* estudiantes, int cantE, string columnas[]){
     cout << "1. Mostrar Info"<<endl;
     cout << "2. Mostrar Head"<<endl;
     cout << "3. Mostrar Describe"<<endl;
-    cout << "4. Mostrar Correlation"<<endl;
+    cout << "4. Mostrar Matriz de Correlación"<<endl;
     cout << "0. Salir"<<endl;
     cout << "Seleccione una opción: ";
     cin >> opcion;
