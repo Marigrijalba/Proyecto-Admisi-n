@@ -5,6 +5,7 @@ Este proyecto en C++ permite la utilización de un conjunto datos de admisión u
 ## Estructura del Proyecto
 El repositorio contiene los siguientes archivos y carpetas:
 
+```bash
 proyecto/
 ├── data/ #donde se almacenan los archivos generados
 │ ├── Admission_Predict_new.bin
@@ -18,16 +19,21 @@ proyecto/
 ├── menuInteractivo.cpp
 ├── main.cpp
 └── Admission_Predict.csv # Archivo original de datos (entrada)
+```
 
 > El archivo `Admission_Predict.csv` debe estar en el **directorio raíz** del proyecto.
 
 ### Compilación
 Para compilar el proyecto es necesario tener instalado un compilador de C++ como `g++` o utilizar una versión online como Replit. A continuación, se abre una terminal en el directorio raíz y se ejecuta el siguiente sódigo en el bash. Esto generará un archivo ejecutable llamado proyecto1.
-- g++ main.cpp archivoBin.cpp archivoTexto.cpp menuInteractivo.cpp -o proyecto1
+```bash
+g++ main.cpp archivoBin.cpp archivoTexto.cpp menuInteractivo.cpp -o proyecto1
+```
 
 ### Ejecución
 Una vez compilado, puedes ejecutar el programa con:
+```bash
 ./proyecto1
+```
 
 ### Durante la ejecución:
 - El programa lee el archivo Admission_Predict.csv desde el directorio raíz.
@@ -44,15 +50,17 @@ Menú del Programa
 
 ### Resultados
 Los resultados de las opciones del menú (1, 2, 3 y 4) se almacenan en el archivo de texto:
-data/transformacion_resultado.txt
+`data/transformacion_resultado.txt`
 
 ### Limpieza
 Para eliminar el ejecutable generado:
+```bash
 rm proyecto1
+```
 
 ### Requisitos
 g++ (o cualquier compilador compatible con C++)
-Archivo de entrada: Admission_Predict.csv ubicado en el directorio raíz del proyecto
+Archivo de entrada: `Admission_Predict.csv` ubicado en el directorio raíz del proyecto
 
 ### Integrantes
 - Mariana Grijalba Mora
