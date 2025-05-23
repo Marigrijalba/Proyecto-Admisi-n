@@ -25,8 +25,8 @@ void readStudentsBinary(const string& nombreArchivo){
   lecturaBinario.read(reinterpret_cast<char*>(estudiantes), sizeof(Student)*cantE);
   lecturaBinario.close();
 
-  cout<<"---VALIDACIÓN ARCHIVO BINARIO---"<<endl;
-  for(int i = 0; i < cantE; i++){
+  cout<<"---VALIDACIÓN ARCHIVO BINARIO (HEAD)---"<<endl;
+  for(int i = 0; i < 5; i++){
     cout << estudiantes[i].serialNo << "     "
          << estudiantes[i].greScore << "     "
          << estudiantes[i].toeflScore << "     "
