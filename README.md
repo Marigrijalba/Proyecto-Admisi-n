@@ -59,8 +59,8 @@ rm proyecto1
 ```
 
 ### Requisitos
-g++ (o cualquier compilador compatible con C++)
-Archivo de entrada: `Admission_Predict.csv` ubicado en el directorio raíz del proyecto
+- g++ (o cualquier compilador compatible con C++)
+- Archivo de entrada: `Admission_Predict.csv` ubicado en el directorio raíz del proyecto
 
 ### Integrantes
 - Mariana Grijalba Mora
