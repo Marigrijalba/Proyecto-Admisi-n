@@ -24,7 +24,7 @@ proyecto/
 > El archivo `Admission_Predict.csv` debe estar en el **directorio raíz** del proyecto.
 
 ### Compilación
-Para compilar el proyecto es necesario tener instalado un compilador de C++ como `g++` o utilizar una versión online como Replit. A continuación, se abre una terminal en el directorio raíz y se ejecuta el siguiente sódigo en el bash. Esto generará un archivo ejecutable llamado proyecto1.
+Para compilar el proyecto es necesario tener instalado un compilador de C++ como `g++` o utilizar una versión online como Replit. A continuación, se abre una terminal en el directorio raíz y se ejecuta el siguiente código en el bash. Esto generará un archivo ejecutable llamado proyecto1.
 ```bash
 g++ main.cpp archivoBin.cpp archivoTexto.cpp menuInteractivo.cpp -o proyecto1
 ```
