@@ -6,7 +6,7 @@ Este proyecto en C++ permite la utilización de un conjunto datos de admisión u
 El repositorio contiene los siguientes archivos y carpetas:
 
 ```bash
-Proyecto/
+C++/
 ├── data/ #donde se almacenan los archivos generados
 │ ├── Admission_Predict_new.bin
 │ └── transformacion_resultado.txt
